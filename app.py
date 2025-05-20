@@ -2,7 +2,7 @@
 import gradio as gr
 from fastai.vision.all import *
 
-learn = load_learner("model.pkl")  # Hugging Face sunucusuna yüklenecek model
+learn = load_learner("model.pkl")  # our model which we will upload to hugging
 
 labels = learn.dls.vocab
 
